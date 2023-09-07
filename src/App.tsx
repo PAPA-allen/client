@@ -1,10 +1,12 @@
 import React from 'react';
-import { Navbar } from './components';
+import { Delivery, Featured, Navbar } from './components';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Featured />
+      <Delivery />
     </div>
   );
 }
